@@ -41,8 +41,8 @@ public class HomeController {
 
     //Sample for reading Request Params Map
     @GetMapping("/RestAPI/ReqBody/")
-    public String reqBody(@RequestBody String req){
-System.out.println("Request=="+req);
-        return req;
+    public String reqBody(@RequestBody String request){
+System.out.println("Request=="+request);
+        return request;
     }
 }
